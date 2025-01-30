@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.header {
+	background-color:hotpink;
+    padding:40px;
+    text-align:center;
+    }
+.pavel {
+	overflow:hidden;
+    background-color:green;
+    }
+.pavel a {
+	float:left;
+    display:block;
+    color:white;
+    text-align:center;
+    padding:20px;
+    text-decoration:none;
+    }
+.pavel a:hover {
+	background-color:yellow;
+    color:black;
+    }
+.column {
+	float:left;
+    width:33.33%;
+    padding:15px;
+    }
+
+.row::after {
+	content: "";
+    display:table;
+    clear:both;
+    }
+@media screen and (max-width:600px) {
+	.column {
+    width:100%;
+    }
+   }
+
+    
+</style>
+</head>
+<body>
+<div class="header">
+	<h1> Md abdur rahman pavel islam </h1>
+    <p>  Vivamus venenatis velit nec neque ultricies, eget elementum magnacon sectetur adipiscing elit. Maecenas sit amet </p>
+</div>
+<div class="pavel">
+	<a href="#"> link number 1 </a>
+    <a href="#"> link number 2 </a>
+    <a href="#"> link number 3 </a>
+    <a href="#"> link number 4 </a>
+    <a href="#"> link number 5 </a>
+</div>
+<div class="row">
+	<div class="column">
+	<h2>Column</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+  </div>
+  
+  <div class="column">
+    <h2>Column</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+  </div>
+  
+  <div class="right">
+    <h2>Column</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+  </div>
+</div>
+
+</body>
+</html>
+
+
