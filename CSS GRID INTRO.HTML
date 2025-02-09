@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+	margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background-color:lightblue;
+    text-align:center;
+    }
+main{
+	width:75%;
+    margin:10px auto;
+    border:2px solid black;
+    color:white;
+    display:grid;
+    grid-template-rows:60px 100px 200px 60px;
+    grid-template-columns:repeat(3, 1fr) 150px;
+    grid-gap:10px;
+    }
+.div1{
+	background-color:red;
+    grid-column: 1/-1;
+    }
+.div2{
+	background-color:yellow;
+    color:black;
+    }
+.div3{
+	background-color:green;
+    }
+.div4{
+	background-color:maroon;
+    }
+.div5{
+	background-color:hotpink;
+    grid-row:2/4; grid-column:4/5;
+    }
+.div6{
+	background-color:blue;
+    grid-column:1/4; 
+    }
+.div7{
+	background-color:tomato;
+    grid-column:1/-1;
+    }
+</style>
+</head>
+<body>
+<main>
+	<div class="div1"> md abdur rahman pavel </div>
+    <div class="div2"> Md pavel </div>
+    <div class="div3"> md pavel </div>
+    <div class="div4"> md pavel </div>
+    <div class="div5"> sidebar </div>
+    <div class="div6"> main content </div>
+    <div class="div7"> footer </div>
+</main>
+
+</body>
+</html>
+
+
