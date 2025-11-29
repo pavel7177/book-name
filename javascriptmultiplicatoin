@@ -1,0 +1,42 @@
+<!DOCTYPE html>     
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My VS Code Project</title>
+
+</head>
+<body> 
+<label for="num1"> First Number: </label>
+<input type="Number" id="num1"><br><br>
+<label for="num2"> Second Number: </label>
+<input type="Number" id="num2"><br><br>
+
+<button type="button" onclick="calculate()"> Calculate </button>
+
+<div>
+    <p id="multiplication"></p>
+    <p id="division"></p>
+</div>
+
+<script>
+    function calculate() {
+        let num1 = parseFloat(document.getElementById("num1").value);
+        let num2 = parseFloat(document.getElementById("num2").value);
+
+        let multiply = num1 * num2;
+        let divide = num2 !== 0 ? (num1 / num2) : "md abdur rahman pavel";
+
+        document.getElementById("multiplication").innerHTML = "multiplication: " 
+        + multiply;
+        document.getElementById("division").innerHTML = "Division: " + divide;
+
+    }
+</script>
+
+</body>
+</html>
+
+
+
